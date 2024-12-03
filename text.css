@@ -1,0 +1,14 @@
+h3{color:grey;}
+H1,H2,H3 { font-style:italic }
+#line1 {
+    text-align:center;color:blue;
+}
+#line2 {
+    text-align:center;color:orange;
+}
+#line3 {
+    text-align:center;color:grey;
+}
+#line1{font-size:100px}
+#line2{font-size:90px}
+#line3{font-size:80px}

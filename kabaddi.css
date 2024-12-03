@@ -1,0 +1,121 @@
+/* styles.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Navigation */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px;
+    margin: 20px 0;
+}
+
+h1, h2 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Home Section */
+.section-home {
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+}
+
+/* History Section */
+.section-history {
+    background-color: #ecf0f1;
+}
+
+/* Rules Section */
+.section-rules {
+    background-color: #bdc3c7;
+}
+
+/* Contact Section */
+.section-contact {
+    background-color: #34495e;
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Rule Styling */
+.rule {
+    margin: 20px 0;
+}
+
+/* Button to scroll */
+button {
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    transform: scale(1.1);
+}

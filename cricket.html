@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Information</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="basketball.css">
+</head>
+<body>
+
+    <header>
+        
+        <h1>Cricket Information</h1>
+        <nav>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#rules">Rules</a></li>
+                <li><a href="#regulations">Regulations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="overview" class="section">
+            <div class="container">
+            <h2>What is Cricket?</h2>
+            <p>Cricket is a bat-and-ball game played between two teams of eleven players on a field at the center of which is a 22-yard pitch with a wicket at each end, each comprising two bails balanced on three stumps.</p>
+        </div>
+        </section>
+
+        <section id="rules" class="section">
+            <div class="container">
+            <h2>Cricket Rules</h2>
+            <button onclick="toggleRules()">Show/Hide Rules</button>
+            <div id="rules-list" style="display: none;">
+                <ul>
+                    <li><strong>1. The Game:</strong> Cricket is played between two teams of 11 players each.</li>
+                    <li><strong>2. The Toss:</strong> The game begins with a coin toss to decide which team bats first.</li>
+                    <li><strong>3. The Batting:</strong> The team that bats must attempt to score as many runs as possible.</li>
+                    <li><strong>4. The Bowling:</strong> The opposing team bowls to dismiss the batsmen and prevent runs.</li>
+                    <li><strong>5. Dismissals:</strong> There are several ways a batsman can be dismissed, such as being bowled, caught, or run out.</li>
+                    <li><strong>6. Overs:</strong> Each bowler bowls six balls in an over, after which the bowler is changed.</li>
+                </ul>
+            </div>
+            </div>
+        </section>
+
+        <section id="regulations" class="section">
+            <div class="container">
+            <h2>Cricket Regulations</h2>
+            <p>Cricket is governed by a set of regulations, including laws provided by the International Cricket Council (ICC). Some of the key regulations are:</p>
+            <ul>
+                <li><strong>1. Playing Time:</strong> Matches are played within specified time frames, ranging from T20 (20 overs) to Test matches (5 days).</li>
+                <li><strong>2. Umpires:</strong> Two umpires oversee the match, ensuring that the rules are followed.</li>
+                <li><strong>3. Code of Conduct:</strong> Players must adhere to a strict code of conduct regarding behavior, discipline, and respect for others.</li>
+                <li><strong>4. Helmet Rules:</strong> Batsmen must wear helmets when facing fast bowlers for safety.</li>
+            </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions about cricket or this website, feel free to contact us.</p>
+            <form action="mailto:example@email.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <input type="submit" value="Send">
+            </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cricket Information. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

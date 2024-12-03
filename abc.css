@@ -1,0 +1,16 @@
+.main{display:inline;
+    position: absolute;
+    top: 15%; 
+    right: 33%;
+    height: 150px;
+    width: 500px;
+    background-size: cover;
+    animation-name: example;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;}
+@keyframes example { 0%{background-image: url(ronaldoimagefootball.jpg);}
+    25%{background-image: url(pradeepnarwalimage.webp);}
+    50%{background-image: url(famous-table-tennis-players.png);}
+    75%{background-image: url(C:\Users\Admin\Desktop);}
+    100%{background-image: url(MichaelJordanimage);}
+}
